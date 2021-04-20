@@ -93,7 +93,7 @@
 
     <!-- Private project with the application code -->
     <project name="master-thesis-sel4-implementation.git" remote="private_gitlab" path="projects/master-thesis-implementation">
-        <!-- Project specific easy settings -->
+        <!-- Project specific easy settings (required for init-build.sh to work) -->
         <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     </project>
     
