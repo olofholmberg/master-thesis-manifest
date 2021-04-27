@@ -6,7 +6,7 @@
 <manifest>
 
     <!-- Private remote with the application code -->
-    <remote name="private_gitlab" fetch="ssh://git@github.com/olofholmberg/" revision="master"/>
+    <remote name="private_gitlab" fetch="https://github.com/olofholmberg/" revision="master"/>
     
     <!-- The seL4 microkernel and related remotes -->
     <remote name="seL4" fetch="https://github.com/seL4/"/>
