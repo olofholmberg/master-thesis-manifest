@@ -71,7 +71,7 @@
     <project name="capdl.git" remote="seL4" path="projects/capdl" revision="master" upstream="master" dest-branch="master"/>
     
     <!-- MIT-licensed implementation of the C standard lib targetting linux syscall API -->
-    <project name="musllibc.git" remote="seL4" path="projects/musllibc" revision="master" upstream="sel4" dest-branch="sel4"/>
+    <project name="musllibc.git" remote="seL4" path="projects/musllibc" revision="sel4" upstream="sel4" dest-branch="sel4"/>
 
     <!-- Platform independent libraries -->
     <project name="projects_libs.git" remote="seL4" path="projects/projects_libs" revision="master" upstream="master" dest-branch="master"/>
