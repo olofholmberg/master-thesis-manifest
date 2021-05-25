@@ -98,6 +98,6 @@
     </project>
     
     <!-- Private project with the yocto VM images and build -->
-    <project name="master-thesis-sel4-implementation.git" path="projects/master-thesis-images" remote="private_gitlab" revision="master"/>
+    <project name="master-thesis-sel4-images.git" path="projects/master-thesis-images" remote="private_gitlab" revision="master"/>
     
 </manifest>
