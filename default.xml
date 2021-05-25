@@ -97,4 +97,7 @@
         <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     </project>
     
+    <!-- Private project with the yocto VM images and build -->
+    <project name="master-thesis-sel4-implementation.git" remote="private_gitlab" path="projects/master-thesis-images"/>
+    
 </manifest>
