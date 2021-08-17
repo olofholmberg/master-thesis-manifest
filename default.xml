@@ -91,13 +91,13 @@
     <!-- polly CMake toolchain files and scripts -->
     <project name="polly" path="tools/polly" remote="polly" revision="65870a4118d76e2adb2fd47ed9c2a5d8bd204d1c" upstream="master" dest-branch="master"/>
 
-    <!-- Private project with the application code -->
-    <project name="master-thesis-implementation-for-seL4.git" remote="private_gitlab" path="projects/master-thesis-implementation">
+    <!-- Project with the application code -->
+    <project name="master-thesis-implementation.git" remote="private_gitlab" path="projects/master-thesis-implementation">
         <!-- Project specific easy settings (required for init-build.sh to work) -->
         <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     </project>
     
-    <!-- Private project with the yocto VM images and build -->
-    <project name="master-thesis-images-for-seL4.git" remote="private_gitlab" path="projects/master-thesis-images"/>
+    <!-- Project with the yocto VM images and build -->
+    <project name="master-thesis-vm-images.git" remote="private_gitlab" path="projects/master-thesis-vm-images"/>
     
 </manifest>
