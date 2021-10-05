@@ -90,7 +90,7 @@
     <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
 
     <!-- Project with the application code -->
-    <project name="master-thesis-implementation.git" remote="private_gitlab" path="projects/master-thesis-implementation">
+    <project name="master-thesis-implementation.git" remote="private_gitlab" path="projects/master-thesis-implementation" revision="83740c00008aa68d883b9cf8aef341d195f42107" upstream="master" dest-branch="master">
         <!-- Project specific easy settings (required for init-build.sh to work) -->
         <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     </project>
