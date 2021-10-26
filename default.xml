@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright 2021 seL4 Project a Series of LF Projects, LLC
+   SPDX-License-Identifier: BSD-2-Clause
+-->
+<!--
+   Modified by Olof Holmberg, 2021
+   For licensing information see comment at the top of the file.
+-->
 <!-- This file is selected unless other manifest is selected with -m at repo init. -->
-<!-- Should probably use strict revisions in other tags than default to ensure compatibility -->
-<!-- Master revision is probably fine for development remote and project though -->
-<!-- To find the correct revision should probably check each seL4 repo for the latest green checkmark revision -->
 <manifest>
 
     <!-- Private remote with the application code -->
